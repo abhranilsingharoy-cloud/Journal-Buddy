@@ -2,3 +2,4 @@ transformers>=4.30.0
 torch>=2.0.0
 rich>=13.0.0
 gradio
+huggingface_hub<0.25.0
