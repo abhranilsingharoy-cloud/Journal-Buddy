@@ -4,3 +4,4 @@ rich>=13.0.0
 huggingface-hub<0.25.0
 fastapi<0.112.0
 starlette<0.38.0
+spaces

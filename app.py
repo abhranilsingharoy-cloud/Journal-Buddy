@@ -1,6 +1,7 @@
 import gradio as gr
 from transformers import pipeline
 import warnings
+import spaces
 
 warnings.filterwarnings("ignore")
 
@@ -8,6 +9,7 @@ warnings.filterwarnings("ignore")
 summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 sentiment_analyzer = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
 
+@spaces.GPU
 def analyze_journal(text):
     if not text.strip():
         return "Please enter a journal entry.", "N/A"
