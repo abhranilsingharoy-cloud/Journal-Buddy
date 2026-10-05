@@ -1,3 +1,14 @@
+---
+title: Journal Buddy
+emoji: 🦀
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: false
+---
+
 # Journal Buddy 📔
 
 A completely offline, privacy-first journal analyzer powered by Open-Source AI.
@@ -19,8 +30,8 @@ Many people love journaling for mental health but want a quick summary and emoti
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/journal-buddy.git
-   cd journal-buddy
+   git clone https://github.com/abhranilsingharoy-cloud/Journal-Buddy.git
+   cd Journal-Buddy
    ```
 2. Create a virtual environment (optional but recommended):
    ```bash
@@ -37,7 +48,7 @@ Many people love journaling for mental health but want a quick summary and emoti
 Simply pass a text file containing your journal entry to the CLI:
 
 ```bash
-python journal_buddy.py my_journal.txt
+python journal_buddy.py sample_journal.txt
 ```
 
 ### Example Output:
